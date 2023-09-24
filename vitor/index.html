@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/BackgroundColor.js"></script>
+    <script src="js/columns.js"></script>
+    <script src="js/loadApplication.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Azu</title>
+  </head>
+  <body>
+    <header class="ContainerHeader header-colored">
+      <div class="header-wrapper">
+        <!--cor do header-->
+        <div class="Containerlogo">
+          <!--clase para editar o tamanho da logo-->
+          <img src="logo" alt="logoazu" /><!--imagem da logo-->
+        </div>
+      </div>
+    </header>
+
+    <div class="btcolor">
+      <select name="colors" onchange="changeColor(this)">
+        <option value="#00CED1" style="background-color: #00ced1"></option>
+        <option value="#DC143C" style="background-color: #dc143c"></option>
+        <option value="#FFFFFF" style="background-color: #ffffff"></option>
+        <option value="#000000" style="background-color: #000000"></option>
+      </select>
+    </div>
+  </body>
+</html>

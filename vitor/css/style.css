@@ -1,0 +1,47 @@
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.ContainerHeader {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+header {
+  background-color: #e2e3e5;
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.texto {
+  font-weight: 700;
+}
+
+.Containerlogo {
+  display: flex;
+  flex-direction: row;
+}
+
+.btcolor {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px;
+}
+
+.btcolor select {
+  border: 1px solid #818080; /* Adiciona uma borda fina */
+  border-radius: 50px; /* Deixa o botão redondo definindo o raio da borda */
+  padding: 8px 16px; /* Espaçamento interno para melhorar a aparência */
+  background-color: #818080 ; /* Torna o fundo transparente para mostrar a cor selecionada */
+  cursor: pointer; /* Muda o cursor para indicar que é interativo */
+}
+
+.btcolor select:hover {
+  border-color: #fbff00; /* Cor da borda quando o mouse está sobre o botão */
+}
