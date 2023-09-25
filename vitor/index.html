@@ -15,24 +15,26 @@
     />
     <title>Azu</title>
   </head>
-  <body>
+  <body class="body">
     <header class="ContainerHeader header-colored">
       <div class="header-wrapper">
         <!--cor do header-->
         <div class="Containerlogo">
           <!--clase para editar o tamanho da logo-->
           <img src="logo" alt="logoazu" /><!--imagem da logo-->
+          <div class="btcolor">
+            <select class="dropcolor" name="colors" onchange="changeColor(this)">
+              <option value="#00CED1" style="background-color: #00ced1"></option>
+              <option value="#DC143C" style="background-color: #dc143c"></option>
+              <option value="#FFFFFF" style="background-color: #ffffff"></option>
+              <option value="#000000" style="background-color: #000000"></option>
+            </select>
+          </div>
         </div>
+        
       </div>
     </header>
 
-    <div class="btcolor">
-      <select name="colors" onchange="changeColor(this)">
-        <option value="#00CED1" style="background-color: #00ced1"></option>
-        <option value="#DC143C" style="background-color: #dc143c"></option>
-        <option value="#FFFFFF" style="background-color: #ffffff"></option>
-        <option value="#000000" style="background-color: #000000"></option>
-      </select>
-    </div>
+    
   </body>
 </html>

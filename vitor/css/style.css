@@ -1,23 +1,28 @@
 
-* {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+.body{
+  width: 100%;
+  max-height: 100%;
+  right: 0;
+  position: absolute;
+  top: 0;
+  margin: 0;
 
+}
 .ContainerHeader {
   display: flex;
-  padding: 20px;
+  padding: 15px;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
 }
+
 header {
+  display: flex;
   background-color: #e2e3e5;
-  display: block;
   width: 100%;
-  margin-left: 0;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  height: auto;
+  overflow-x: hidden;
+  
 }
 .texto {
   font-weight: 700;
@@ -26,22 +31,44 @@ header {
 .Containerlogo {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .btcolor {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 50px;
+  border-radius: inherit;
+  height: 35px;
+  width: 50px;
+  box-shadow: black;
 }
 
 .btcolor select {
-  border: 1px solid #818080; /* Adiciona uma borda fina */
   border-radius: 50px; /* Deixa o botão redondo definindo o raio da borda */
-  padding: 8px 16px; /* Espaçamento interno para melhorar a aparência */
-  background-color: #818080 ; /* Torna o fundo transparente para mostrar a cor selecionada */
+   /*padding: 8px 16px; Espaçamento interno para melhorar a aparência */
+  background-color: #ffffff ; /* Torna o fundo transparente para mostrar a cor selecionada */
   cursor: pointer; /* Muda o cursor para indicar que é interativo */
+  width: 80px;
+  height: 30px;
+  margin-left: -50px;
 }
+
 
 .btcolor select:hover {
   border-color: #fbff00; /* Cor da borda quando o mouse está sobre o botão */
+}
+
+.changeColor{
+  border-radius: 80px;
+  height: 40px;
+  width: 40px;
+}
+
+.dropcolor{
+  cursor: pointer;
+  border-radius: 80px;
+  height: 80px;
+  width: 80px;
+
 }
