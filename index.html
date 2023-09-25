@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/BackgroundColor.js"></script>
-    <script src="js/columns.js"></script>
-    <script src="js/loadApplication.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Azu</title>
-  </head>
-  <body>
+</head>
+<body class="body">
     <header class="ContainerHeader header-colored">
-      <div class="header-wrapper">
-        <!--cor do header-->
-        <div class="Containerlogo">
-          <!--clase para editar o tamanho da logo-->
-          <img src="logo" alt="logoazu" /><!--imagem da logo-->
-        </div>
-      </div>
+        <div class="header-wrapper">
+            <!-- Cor do header -->
+            <div class="Containerlogo">
+                <!-- Clase para editar el tamaño del logo -->
+                <img src="logo" alt="logoazu" />
+                <!-- Imagen de la logo -->
+                </div>
+            </div>
+            <div class="btcolor">
+              <div button id="colorButton" class="dropbtn">Trocar de cor</button>
+                <div id="colors" class="dropcolor">
+                  <button class="color-option" style="background-color: #00ced1"></button>
+                  <button class="color-option" style="background-color: #dc143c"></button>
+                  <button class="color-option" style="background-color: #ffffff"></button>
+                  <button class="color-option" style="background-color: #000000"></button>
+                </div>
+             </div>
+            </div>
     </header>
-    <div class="btcolor">
-      <button class="btn" onclick="toggleColorMenu()">Trocar cor</button>
-    </div>
-    <div class="color-menu" id="colorMenu">
-      <button style="background-color: #939473" onclick="changeColor('#939473')"></button>
-      <button style="background-color: #4f784e" onclick="changeColor('#4f784e')"></button>
-      <button style="background-color: #2d5e4c" onclick="changeColor('#2d5e4c')"></button>
-      <button style="background-color: #13444d" onclick="changeColor('#13444d')"></button>
-      <button style="background-color: #252326" onclick="changeColor('#252326')"></button>
-    </div>
-  </body>
+    <script src="js/BackgroundColor.js"></script>
+</body>
 </html>
- 
